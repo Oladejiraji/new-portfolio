@@ -5,11 +5,7 @@ import React, {
   SetStateAction,
   useState,
 } from "react";
-import {
-  ContactFormState,
-  ContactFormType,
-  FormLoadingState,
-} from "../../constants/types";
+import { ContactFormState, ContactFormType } from "../../constants/types";
 import { HoverButton } from "../atoms";
 import { formSubmit } from "../../services/apis";
 

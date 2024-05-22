@@ -4,8 +4,6 @@ import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import gsap from "gsap";
 import { findTag } from "../../utils/helper";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
-import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 const projectData = [
   {

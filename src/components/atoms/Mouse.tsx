@@ -16,7 +16,7 @@ const Mouse = () => {
     curRef.current.style.top = e.pageY + "px";
     curRef.current.style.display = "block";
   };
-  const mouseOver = (e: MouseEvent) => {
+  const mouseOver = () => {
     const activeClassList = curRef.current?.classList;
     console.log(activeClassList);
     if (activeClassList && activeClassList.contains("mouse_comp")) {

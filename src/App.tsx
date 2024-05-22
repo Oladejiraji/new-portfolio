@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import "./App.css";
 import {
@@ -8,8 +8,6 @@ import {
   Footer,
   Header,
   Loading,
-  Mouse,
-  Music,
   Projects,
   Services,
   Showcase,

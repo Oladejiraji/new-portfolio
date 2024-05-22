@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { ExternalLink, HoverButton } from "../atoms";
+import { HoverButton } from "../atoms";
 import { useLenis } from "lenis/react";
 
 const About = () => {

@@ -1,4 +1,4 @@
-import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
+import React, { Dispatch, SetStateAction, useEffect } from "react";
 import { useInterval } from "../../hooks/useInterval";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
 
