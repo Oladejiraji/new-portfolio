@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import SectionHeader from "../atoms/SectionHeader";
 import { Avatar } from "../molecules";
 import { Canvas } from "@react-three/fiber";

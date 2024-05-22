@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { getNowPlaying } from "../../services/apis";
 import { SongType } from "../../constants/types";
 

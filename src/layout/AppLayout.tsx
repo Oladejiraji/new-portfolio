@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { ReactLenis } from "lenis/react";
 
 const AppLayout = ({ children }: { children: ReactNode }) => {

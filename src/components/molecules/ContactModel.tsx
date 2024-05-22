@@ -1,6 +1,6 @@
 import { OrbitControls, Stats, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import React, { Suspense, useRef } from "react";
+import { Suspense, useRef } from "react";
 import { Group, Object3DEventMap } from "three";
 
 function Loader() {

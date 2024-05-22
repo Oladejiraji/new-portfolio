@@ -1,5 +1,5 @@
 import { useFrame } from "@react-three/fiber";
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { Color, MathUtils, Mesh } from "three";
 
 const Box = (props: any) => {
