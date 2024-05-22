@@ -1,5 +1,3 @@
-import React from "react";
-
 const Explore = () => {
   return (
     <div className="absolute bottom-[40px] right-[1rem]  md:right-0 flex items-start gap-4 ">

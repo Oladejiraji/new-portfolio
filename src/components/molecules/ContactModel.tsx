@@ -9,7 +9,7 @@ function Loader() {
 
 const ContactModel = () => {
   const ref = useRef<Group<Object3DEventMap>>(null);
-  const { nodes, materials } = useGLTF("/models/robot.glb");
+  const { nodes, materials } = useGLTF("/models/robot.glb") as any;
   return (
     <Suspense fallback={<Loader />}>
       <Canvas camera={{ position: [0, 1, 1] }} shadows>

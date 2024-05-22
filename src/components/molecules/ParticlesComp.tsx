@@ -16,9 +16,6 @@ const ParticlesComp = () => {
       <Particles
         id="tsparticles"
         options={{
-          background: {
-            color: {},
-          },
           fpsLimit: 120,
           interactivity: {
             events: {
@@ -30,7 +27,6 @@ const ParticlesComp = () => {
                 enable: true,
                 mode: "repulse",
               },
-              resize: true,
             },
             modes: {
               push: {
@@ -66,7 +62,6 @@ const ParticlesComp = () => {
             number: {
               density: {
                 enable: true,
-                area: 800,
               },
               value: 80,
             },

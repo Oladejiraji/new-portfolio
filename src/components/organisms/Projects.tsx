@@ -1,4 +1,3 @@
-import React from "react";
 import SectionHeader from "../atoms/SectionHeader";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

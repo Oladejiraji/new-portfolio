@@ -1,5 +1,3 @@
-import React from "react";
-
 const SectionHeader = ({
   padLeft = 0,
   text,

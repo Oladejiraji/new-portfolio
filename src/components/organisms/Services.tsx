@@ -1,4 +1,3 @@
-import React from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -18,7 +17,7 @@ const Services = () => {
   const padLeft = windowWidth < 768 ? 0 : 200;
   useGSAP(() => {
     gsap.registerPlugin(ScrollTrigger);
-    const imgSlider = document.querySelector(".slider-container");
+    const imgSlider = document.querySelector(".slider-container") as any;
     const imgSliderMain = document.querySelector(".main-slider-container");
 
     const calculateSliderX =

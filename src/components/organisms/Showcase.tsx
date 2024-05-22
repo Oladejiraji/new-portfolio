@@ -1,4 +1,3 @@
-import React from "react";
 import { ParticleComp } from "../molecules";
 import { Explore, ExternalLink, HoverButton } from "../atoms";
 
