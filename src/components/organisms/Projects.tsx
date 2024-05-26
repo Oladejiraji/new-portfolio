@@ -61,20 +61,14 @@ const projectData = [
     link: "https://yourbuzzz.com",
     border: true,
   },
-  // {
-  //   id: 5,
-  //   name: "Video App",
-  //   description: "Merch Gateway for the internet",
-  //   tags: [
-  //     findTag("react"),
-  //     findTag("next.js"),
-  //     findTag("three.js"),
-  //     findTag("react query"),
-  //     findTag("typescript"),
-  //   ],
-  //   img: "/project_1.png",
-  //   link: "https://yourbuzzz.com",
-  // },
+  {
+    id: 5,
+    name: "JS Questionnaire",
+    description: "A fun JS questionnaire",
+    tags: [findTag("node.js")],
+    img: "/project_5.png",
+    link: "https://www.npmjs.com/package/js-questionnaire",
+  },
   // {
   //   id: 6,
   //   name: "Three.Js Playground",

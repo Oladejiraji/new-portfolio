@@ -41,9 +41,9 @@ function App() {
         <Header />
         <Showcase />
         <About />
+        <Projects />
         <Services />
         <Experience />
-        <Projects />
         <Contact />
         {/* <Music /> */}
         <Footer />
