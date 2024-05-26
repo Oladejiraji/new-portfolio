@@ -11,7 +11,7 @@ const experienceData = [
     letter: "A",
     company: "233 Developers",
     link: "https://233developers.com/",
-    role: "Mobile Developer",
+    role: "Senior Fullstack Developer",
     start: "12 May, 2021",
     end: "12 May, 2021",
     tags: [
@@ -29,7 +29,7 @@ const experienceData = [
     letter: "B",
     company: "Buzzz Inc",
     link: "https://www.linkedin.com/company/buzzz-inc/",
-    role: "Frontend Developer",
+    role: "Seniior Frontend Developer",
     start: "12 May, 2021",
     end: "12 May, 2021",
     tags: [
@@ -59,7 +59,7 @@ const experienceData = [
     letter: "D",
     company: "Ivbaze Tech Development",
     link: "https://www.linkedin.com/company/ivbazetechdev/",
-    role: "Fullstck Developer",
+    role: "Senior Fullstck Developer",
     start: "12 May, 2021",
     end: "12 May, 2021",
     tags: [findTag("react"), findTag("node.js"), findTag("postgresql")],
