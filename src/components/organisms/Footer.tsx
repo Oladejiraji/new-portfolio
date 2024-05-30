@@ -23,7 +23,7 @@ const Footer = () => {
   return (
     <footer className="  py-[2rem] bg-[#333] ">
       <div className="flex items-center justify-between max-w-[1200px] mx-auto px-[1rem] sm:px-[2rem] lg:px-[3rem]">
-        <div className="flex items-center gap-10">
+        <div className="flex items-center gap-4 md:gap-10">
           {footerLinks.map((link, i) => (
             <a
               key={i}
