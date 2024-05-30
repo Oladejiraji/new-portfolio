@@ -46,35 +46,37 @@ const Loading = ({ countdown, setCountDown }: IProps) => {
   }, []);
 
   return (
-    <div className="relative">
-      <div className="px-6 py-6 absolute top-0 left-0">
-        <h1 className="font-headerFont text-[2rem] ">RO</h1>
-      </div>
-      <div className="h-screen flex items-center justify-center">
-        <div className="overflow-hidden sentence-container">
-          {content.map((sentence, i) => (
-            <h3
-              className="font-bold text-[2rem] md:text-[5rem] font-font2 sentence text-center "
-              key={i}
-            >
-              {sentence}
-            </h3>
-          ))}
+    <div className="">
+      <div className="relative">
+        <div className="px-6 py-6 absolute top-0 left-0">
+          <h1 className="font-headerFont text-[2rem] ">RO</h1>
         </div>
-      </div>
-      <div className="absolute left-0 bottom-[40px] w-full">
-        <div className="flex justify-center items-center">
-          <div>
-            <p className=" font-bold font-roboto pb-3">
-              Loading
-              <sup className="pl-1">({countdown * 10}%)</sup>
-            </p>
+        <div className="h-screen flex items-center justify-center">
+          <div className="overflow-hidden sentence-container">
+            {content.map((sentence, i) => (
+              <h3
+                className="font-bold text-[2rem] md:text-[5rem] font-font2 sentence text-center "
+                key={i}
+              >
+                {sentence}
+              </h3>
+            ))}
           </div>
         </div>
-        <div
-          className=" h-[6px] bg-[white] transition-all"
-          style={{ width: (countdown / 10) * width }}
-        />
+        <div className="absolute left-0 bottom-[70px] md:bottom-[40px] w-full">
+          <div className="flex justify-center items-center">
+            <div>
+              <p className=" font-bold font-roboto pb-3">
+                Loading
+                <sup className="pl-1">({countdown * 10}%)</sup>
+              </p>
+            </div>
+          </div>
+          <div
+            className=" h-[6px] bg-[white] transition-all"
+            style={{ width: (countdown / 10) * width }}
+          />
+        </div>
       </div>
     </div>
   );
