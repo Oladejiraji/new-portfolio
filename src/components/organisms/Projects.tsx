@@ -31,7 +31,7 @@ const projectData = [
       findTag("typescript"),
     ],
     img: "/project_3.png",
-    link: "https://yourbuzzz.com",
+    link: "https://apps.apple.com/ng/app/habari-connect-chat/id6448764507",
   },
   {
     id: 3,
@@ -50,7 +50,7 @@ const projectData = [
   {
     id: 4,
     name: "My Portfolio 🙈",
-    description: "Deji's world",
+    description: "Welcome to Deji's world - I guess this is recursion😅",
     tags: [
       findTag("react"),
       findTag("gsap"),
@@ -58,7 +58,7 @@ const projectData = [
       findTag("typescript"),
     ],
     img: "/project_4.png",
-    link: "https://yourbuzzz.com",
+    link: "https://oladeji.app",
     border: true,
   },
   {
@@ -118,7 +118,7 @@ const Projects = () => {
                 />
               </div>
               <div className="absolute bottom-0 left-0 z-[2] px-[1rem] py-[2rem] project_card_content ">
-                <h1 className="font-roboto font-extrabold text-[2.5rem] ">
+                <h1 className="font-roboto font-extrabold text-[2.5rem] leading-10 ">
                   {pro.name}
                 </h1>
                 <p className="font-roboto text-[1rem] mt-[0.3rem] ">
@@ -163,7 +163,7 @@ const Projects = () => {
                 />
               </div>
               <div className="absolute bottom-0 left-0 z-[2] px-[1rem] py-[2rem] project_card_content ">
-                <h1 className="font-roboto font-extrabold text-[2.5rem] ">
+                <h1 className="font-roboto font-extrabold text-[2.5rem] leading-10 ">
                   {pro.name}
                 </h1>
                 <p className="font-roboto text-[1rem] mt-[0.3rem] ">
