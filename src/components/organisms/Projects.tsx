@@ -69,20 +69,20 @@ const projectData = [
     img: "/project_5.png",
     link: "https://www.npmjs.com/package/js-questionnaire",
   },
-  // {
-  //   id: 6,
-  //   name: "Three.Js Playground",
-  //   description: "Merch Gateway for the internet",
-  //   tags: [
-  //     findTag("react"),
-  //     findTag("next.js"),
-  //     findTag("three.js"),
-  //     findTag("react query"),
-  //     findTag("typescript"),
-  //   ],
-  //   img: "/project_1.png",
-  //   link: "https://yourbuzzz.com",
-  // },
+  {
+    id: 6,
+    name: "Video app",
+    description: "A video calling application (more features incoming 🙂)",
+    tags: [
+      findTag("react"),
+      findTag("next.js"),
+      findTag("socket.io"),
+      findTag("tailwind"),
+      findTag("typescript"),
+    ],
+    img: "/project_6.png",
+    link: "https://video-app-frontend-vert.vercel.app/",
+  },
 ];
 
 const Projects = () => {

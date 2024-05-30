@@ -59,4 +59,9 @@ export const tagsData = [
     name: "Gsap",
     link: "https://gsap.com/",
   },
+  {
+    id: 13,
+    name: "Tailwind",
+    link: "https://tailwindcss.com/",
+  },
 ];
