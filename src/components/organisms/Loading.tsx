@@ -47,7 +47,7 @@ const Loading = ({ countdown, setCountDown }: IProps) => {
 
   return (
     <div className="">
-      <div className="relative flex flex-col h-screen justify-center pt-[20px] pb-[100px] md:pb-[40px] ">
+      <div className="relative flex flex-col h-screen justify-center pt-[20px] pb-[100px] md:pb-[55px] ">
         <div className="px-6 py-6 ">
           <h1 className="font-headerFont text-[2rem] ">RO</h1>
         </div>

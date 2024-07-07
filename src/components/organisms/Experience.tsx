@@ -102,7 +102,7 @@ const Experience = () => {
             rel="noopener noreferrer"
             className="sticky top-[10%] "
           >
-            <div className="mouse_comp min-h-[400px] max-w-[300px] sm:max-w-[1000px] bg-[#333] experience_card  border-[2px] border-[white] px-[1rem] sm:px-[2rem] py-[2rem] bg-opacity-[0.8] ">
+            <div className="mouse_comp min-h-[400px] max-w-[320px] sm:max-w-[1000px] bg-[#333] experience_card  border-[2px] border-[white] px-[1rem] sm:px-[2rem] py-[2rem] bg-opacity-[0.8] ">
               <h1 className="font-sedan text-[2rem] md:text-[3rem] pb-[2rem] ">
                 ({experience.letter})
               </h1>
