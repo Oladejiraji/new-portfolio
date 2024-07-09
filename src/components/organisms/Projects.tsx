@@ -34,6 +34,20 @@ const projectData = [
     link: "https://apps.apple.com/ng/app/habari-connect-chat/id6448764507",
   },
   {
+    id: 10,
+    name: "MOJ Dashboard",
+    description: "Ministry of Justice Management Dashboard",
+    tags: [
+      findTag("react"),
+      findTag("next.js"),
+      findTag("react query"),
+      findTag("tailwind"),
+      findTag("typescript"),
+    ],
+    img: "/project_7.png",
+    link: "https://moj.lawpavilion.com",
+  },
+  {
     id: 3,
     name: "Tenaciti",
     description: "All in one property management software",
