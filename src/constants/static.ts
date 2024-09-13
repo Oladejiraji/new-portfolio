@@ -64,4 +64,24 @@ export const tagsData = [
     name: "Tailwind",
     link: "https://tailwindcss.com/",
   },
+  {
+    id: 13,
+    name: "Tailwind",
+    link: "https://tailwindcss.com/",
+  },
+  {
+    id: 14,
+    name: "Wagmi",
+    link: "https://1.x.wagmi.sh/",
+  },
+  {
+    id: 14,
+    name: "Ether.js",
+    link: "https://docs.ethers.org/v5/",
+  },
+  {
+    id: 14,
+    name: "Bungee",
+    link: "https://docs.bungee.exchange/get-started/integrate-bungee/bungee-api/",
+  },
 ];

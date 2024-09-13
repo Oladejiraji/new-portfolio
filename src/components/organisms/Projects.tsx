@@ -6,6 +6,20 @@ import { findTag } from "../../utils/helper";
 
 const projectData = [
   {
+    id: 99,
+    name: "Superbase",
+    description: "A platform for swapping tokens",
+    tags: [
+      findTag("react"),
+      findTag("next.js"),
+      findTag("bungee"),
+      findTag("wagmi"),
+      findTag("ether.js"),
+    ],
+    img: "/project_12.png",
+    link: "https://dex-seven.vercel.app/",
+  },
+  {
     id: 1,
     name: "Buzzz",
     description: "Merch Gateway for the internet",
@@ -20,18 +34,26 @@ const projectData = [
     link: "https://yourbuzzz.com",
   },
   {
-    id: 2,
-    name: "Habari",
-    description: "Make meaningful connections with habari ",
+    id: 1,
+    name: "Buzzz 3d Editor",
+    description: "Merch Gateway for the internet",
     tags: [
-      findTag("Expo"),
-      findTag("React Native"),
-      findTag("socket.io"),
-      findTag("redux"),
+      findTag("react"),
+      findTag("next.js"),
+      findTag("three.js"),
+      findTag("react query"),
       findTag("typescript"),
     ],
-    img: "/project_3.png",
-    link: "https://apps.apple.com/ng/app/habari-connect-chat/id6448764507",
+    img: "/project_11.png",
+    link: "https://design.yourbuzzz.com?model=hoodie",
+  },
+  {
+    id: 100,
+    name: "3d Gallery",
+    description: "An interactive 3d gallery",
+    tags: [findTag("react"), findTag("next.js"), findTag("three.js")],
+    img: "/project_99.png",
+    link: "https://gallery-test-theta.vercel.app/gallery",
   },
   {
     id: 10,
@@ -96,6 +118,20 @@ const projectData = [
     ],
     img: "/project_6.png",
     link: "https://video-app-frontend-vert.vercel.app/",
+  },
+  {
+    id: 2,
+    name: "Habari",
+    description: "Make meaningful connections with habari ",
+    tags: [
+      findTag("Expo"),
+      findTag("React Native"),
+      findTag("socket.io"),
+      findTag("redux"),
+      findTag("typescript"),
+    ],
+    img: "/project_3.png",
+    link: "https://apps.apple.com/ng/app/habari-connect-chat/id6448764507",
   },
 ];
 
