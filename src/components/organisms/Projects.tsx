@@ -6,20 +6,6 @@ import { findTag } from "../../utils/helper";
 
 const projectData = [
   {
-    id: 99,
-    name: "Superbase",
-    description: "A platform for swapping tokens",
-    tags: [
-      findTag("react"),
-      findTag("next.js"),
-      findTag("bungee"),
-      findTag("wagmi"),
-      findTag("ether.js"),
-    ],
-    img: "/project_12.png",
-    link: "https://dex-seven.vercel.app/",
-  },
-  {
     id: 1,
     name: "Buzzz",
     description: "Merch Gateway for the internet",
@@ -48,13 +34,27 @@ const projectData = [
     link: "https://design.yourbuzzz.com?model=hoodie",
   },
   {
-    id: 100,
-    name: "3d Gallery",
-    description: "An interactive 3d gallery",
-    tags: [findTag("react"), findTag("next.js"), findTag("three.js")],
-    img: "/project_99.png",
-    link: "https://gallery-test-theta.vercel.app/gallery",
+    id: 99,
+    name: "Superbase",
+    description: "A platform for swapping tokens",
+    tags: [
+      findTag("react"),
+      findTag("next.js"),
+      findTag("bungee"),
+      findTag("wagmi"),
+      findTag("ether.js"),
+    ],
+    img: "/project_100.png",
+    link: "https://dex-seven.vercel.app/",
   },
+  // {
+  //   id: 100,
+  //   name: "3d Gallery",
+  //   description: "An interactive 3d gallery",
+  //   tags: [findTag("react"), findTag("next.js"), findTag("three.js")],
+  //   img: "/project_99.png",
+  //   link: "https://gallery-test-theta.vercel.app/gallery",
+  // },
   {
     id: 10,
     name: "MOJ Dashboard",
